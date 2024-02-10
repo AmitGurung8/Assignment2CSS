@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dancin' - Aaron Smith</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <meta charset="utf-8"> <!-- Meta charset declaration -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Viewport meta tag -->
+    <meta name="Amit Gurung" content="Assignment 2"> <!-- Meta tag for author information -->
+</head>
+<body>
+    <header>
+        <div id="discoBall"></div> <!-- Container for disco ball -->
+        <h1>Dancin' - Aaron Smith</h1> <!-- Main heading -->
+        <h2>WELCOME TO THE CSS CLUB</h2> <!-- Sub heading -->
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Container for lyrics -->
+        <div class="lyrics-container">
+            <p id="lyrics"></p> <!-- Paragraph element to display lyrics -->
+        </div>
+
+        <!-- Container for seek bar -->
+        <div class="seek-bar-container">
+            <label for="seek-bar" id="skLabel">Seek Bar</label> <!-- Label for seek bar -->
+            <input type="range" id="seek-bar" value="0" min="0" max="100"> <!-- Seek bar input -->
+        </div>
+
+        <!-- Button to play/pause music -->
+        <button onclick="play()" id="b">PLAY/PAUSE <br> LETS GET IT !!!</button>
+    </main>
+
+    <!-- Section for artist information -->
+    <section class="artist-info">
+        <h2>About Aaron Smith</h2> <!-- Sub heading -->
+        <p>Aaron Smith is a renowned DJ and producer known for his hit track "Dancin'." Born and raised in Chicago, Smith started his music career at a young age...</p> <!-- Artist description -->
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>Lyrics provided for educational purposes and personal use only.</p> <!-- Copyright information -->
+        <p>&copy; 2024 YourWebsiteName. All rights reserved.</p> <!-- Website name and copyright -->
+    </footer>
+ 
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
