@@ -104,7 +104,7 @@ const lyrics = [
     "[03:08.91]Dancing's what clears my soul"
 ];  
 
-var a = new Audio('/audio/dancing.mp4'), b = null, seekBar = null;
+var a = new Audio('audio/dancing.mp4'), b = null, seekBar = null;
 var sk = null;
 
 function play() {
